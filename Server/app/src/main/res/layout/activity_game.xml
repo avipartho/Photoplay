@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF333131"
+    tools:context="com.example.user.server.GameActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="86dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:textSize="20sp"
+            android:layout_centerHorizontal="true"
+            android:textColor="#FFFAFDFF"
+            android:gravity="center_vertical|center_horizontal" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="46dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:textSize="20sp"
+            android:textColor="#FFFAFDFF"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="51dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:textSize="20sp"
+            android:textColor="#FFFAFDFF"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="TextView" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/introbb"
+            android:layout_marginTop="59dp"
+            android:text="Capture"
+            android:textColor="#FFFAFDFF"
+            android:layout_below="@+id/textView4"
+            android:layout_alignStart="@+id/textView4"
+            android:layout_marginStart="64dp" />
+
+        <ProgressBar
+            android:id="@+id/pb"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"
+            android:layout_below="@+id/button3"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="5dp"/>
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/introbb"
+            android:text="Restart"
+            android:textColor="#FFFAFDFF"
+            android:layout_marginEnd="55dp"
+            android:layout_above="@+id/pb"
+            android:layout_alignEnd="@+id/textView4"
+            android:layout_alignTop="@+id/button3" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/introbb"
+            android:text="Share"
+            android:visibility="gone"
+            android:textColor="#FFFAFDFF"
+            android:layout_marginTop="59dp"
+            android:layout_below="@+id/textView4"
+            android:layout_alignStart="@+id/textView4"
+            android:layout_marginStart="64dp" />
+
+        <TextView
+            android:id="@+id/score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:textColor="#FFFFFF"
+            android:text="Score : 0"/>
+
+        <ProgressBar
+            android:id="@+id/advancement"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/score"
+            android:layout_alignStart="@+id/button3"
+            android:layout_marginStart="10dp" />
+
+        <TextView
+            android:id="@+id/pgtext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Progress :"
+            android:textColor="#FFFFFF"
+            android:layout_alignTop="@+id/advancement"
+            android:layout_alignStart="@+id/textView2" />
+
+    </RelativeLayout>
+
+
+</ScrollView>

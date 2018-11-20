@@ -1,0 +1,4 @@
+1. Take pictures of  particular objects in a row.
+2. A new window will appear where you will be asked to take pictures of prticular objects from those three you have already taken.
+3. Don't forget that the clock is ticking. You have to complete taking pictures within the given time.
+ 
