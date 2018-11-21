@@ -4,7 +4,7 @@ An android app to assist children's cognitive development. This app was develope
 
 ## Citation:
 
-If you use this code for your research/ project, please cite
+If you use this code for your research or project, please cite
 
     @INPROCEEDINGS{8288990, 
         author={A. Mitra and T. Mostafiz and R. U. Rashid}, 
